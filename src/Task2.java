@@ -18,7 +18,7 @@ public class Task2 {
     }
     static int task2D_recursive(int[] arr, int i){
         if (i==arr.length) return 0;
-        return arr
+        return arr[i]+task2D_recursive(arr,++i);
 
     }
 }
