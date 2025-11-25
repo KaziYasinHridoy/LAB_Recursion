@@ -26,6 +26,7 @@ Task 1:
         System.out.println(i);
         task1D_recursive(N,++i);
     }
+    //Tester
     public static void main(String[] args) {
         System.out.println("Task 1A:");
         task1A();

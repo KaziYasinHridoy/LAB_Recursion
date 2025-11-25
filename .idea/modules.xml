@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Codeforces - 2025 ICPC Asia Taichung Regional Contest Unrated Online Mirror ICPC Rules Preferably Teams/CF 2172 N/CF_2172_N.iml" filepath="$PROJECT_DIR$/Codeforces - 2025 ICPC Asia Taichung Regional Contest Unrated Online Mirror ICPC Rules Preferably Teams/CF 2172 N/CF_2172_N.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Codeforces - Unknown Language Round 2/CF 72 G/CF_72_G.iml" filepath="$PROJECT_DIR$/Codeforces - Unknown Language Round 2/CF 72 G/CF_72_G.iml" />
       <module fileurl="file://$PROJECT_DIR$/LAB_Recursion.iml" filepath="$PROJECT_DIR$/LAB_Recursion.iml" />
     </modules>
   </component>
