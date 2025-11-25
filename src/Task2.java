@@ -50,7 +50,7 @@ the helper function uses recursion.
 Note: You may use helper functions for this task. i.e. one helper function may
 do the summation and another function may do the multiplication then
 the task2F_recursive() would just call them and return the subtraction.
- */
+*/
     static int task2F_recursive(int[] arr){
         return odd_multiplication(arr,0)-even_summation(arr,0);
     }
@@ -63,6 +63,30 @@ the task2F_recursive() would just call them and return the subtraction.
         if (i==arr.length) return 0;
         if (arr[i]%2==0)   return arr[i]+even_summation(arr,++i);
         else  return even_summation(arr,++i);
+    }
+
+    //////////////////////////////****TESTER****//////////////////////////////
+    public static void main(String[] args) {
+
+        int[] arr = {1, 2, 3, 4, 5, 6};
+
+        System.out.println("------ Task 2A ------");
+        task2A(arr);
+
+        System.out.println("\n------ Task 2B (Recursive) ------");
+        task2B_recursive(arr, 0);
+
+        System.out.println("\n------ Task 2C (Sum of Array) ------");
+        System.out.println("Sum = " + task2C(arr));
+
+        System.out.println("\n------ Task 2D (Recursive Sum) ------");
+        System.out.println("Recursive Sum = " + task2D_recursive(arr, 0));
+
+        System.out.println("\n------ Task 2E (Odd Multiplication - Even Summation) ------");
+        System.out.println("Result = " + task2E(arr));
+
+        System.out.println("\n------ Task 2F (Recursive Same As E) ------");
+        System.out.println("Recursive Result = " + task2F_recursive(arr));
     }
 
 }
