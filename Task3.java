@@ -6,17 +6,26 @@ public class Task3 {
             this.val=val;
         }
     }
+/*
+A. Write a method/function called task3A( ) that takes the head of Singly LinkedList in
+its parameter and uses a while loop to print the linked list elements.
+ */
     void task3A(Node head){
         while (head!=null){
             System.out.println(head.val);
             head=head.next;
         }
     }
+//B. Convert the previous task into a recursive function called task3B_recursive().
     void task3B_recursive(Node head){
         if (head==null) return;
         System.out.println(head.val);
         task3B_recursive(head.next);
     }
+/*
+C. Write a method/function called task3C( ) that takes the head of Singly LinkedList in
+its parameter and returns the summation of the elements.
+ */
     int task3C(Node head){
         int sum=0;
         while (head!=null){
@@ -25,10 +34,16 @@ public class Task3 {
         }
         return sum;
     }
+
+//D. Convert the previous task into a recursive function called task3C_recursive().
     int task3C_recursive(Node head){
         if (head==null) return 0;
         return head.val+task3C_recursive(head.next);
     }
+/*
+E. Write a method/function called task3E( ) that takes the head of Singly LinkedList in its parameter .
+The function returns the subtraction between the summation of odd elements and multiplication of the even elements.
+ */
     int task3E(Node head){
         int sum=0,mul=1;
         while (head!=null){
@@ -39,7 +54,10 @@ public class Task3 {
         }
         return sum-mul;
     }
-
+/*
+F. Write a function called task3F_recursive() which does the same thing as task3E but utilizes recursion.
+Note: You may use helper functions for this task
+*/
     int task3F_recursive(Node head){
         return summation(head) - multiplication(head);
     }
