@@ -73,8 +73,7 @@ Note: You may use helper functions for this task
             return head.val+summation(head.next);
         return summation(head.next);
     }
-
-    //\\//\\//\\//\\//\\//\\//\\TESTER//\\//\\//\\//\\//\\//\\//\\
+//\\//\\//\\//\\//\\//\\//\\TESTER//\\//\\//\\//\\//\\//\\//\\
     public static void main(String[] args) {
 
         Task3 t = new Task3();
