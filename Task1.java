@@ -26,8 +26,10 @@ Task 1:
         System.out.println(i);
         task1D_recursive(N,++i);
     }
-    //Tester
+
+//\\//\\//\\//\\//\\//\\//\\TESTER//\\//\\//\\//\\//\\//\\//\\
     public static void main(String[] args) {
+        // Tester method created with a little help from AI for speed
         System.out.println("Task 1A:");
         task1A();
 

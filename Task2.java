@@ -65,9 +65,9 @@ the task2F_recursive() would just call them and return the subtraction.
         else  return even_summation(arr,++i);
     }
 
-    //////////////////////////////****TESTER****//////////////////////////////
+//\\//\\//\\//\\//\\//\\//\\TESTER//\\//\\//\\//\\//\\//\\//\\
     public static void main(String[] args) {
-
+    // Tester method created with a little help from AI for speed
         int[] arr = {1, 2, 3, 4, 5, 6};
 
         System.out.println("------ Task 2A ------");

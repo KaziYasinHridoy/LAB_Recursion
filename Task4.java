@@ -24,10 +24,11 @@ public class Task4 {
         head.next=null;
         return nh;
     }
+
 //\\//\\//\\//\\//\\//\\//\\TESTER//\\//\\//\\//\\//\\//\\//\\
     public static void main(String[] args){
         Task4 t = new Task4();
-
+        // Tester method created with a little help from AI for speed
         // Create linked list: 1 -> 2 -> 3 -> 4 -> 5
         Node head = new Node(1);
         head.next = new Node(2);

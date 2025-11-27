@@ -77,7 +77,7 @@ Note: You may use helper functions for this task
     public static void main(String[] args) {
 
         Task3 t = new Task3();
-
+        // Tester method created with a little help from AI for speed
         // Create a linked list: 5 -> 2 -> 7 -> 4 -> 9
         Task3.Node head = new Task3.Node(5);
         head.next = new Task3.Node(2);
