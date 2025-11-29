@@ -26,9 +26,9 @@ Note: You can just swap the values of the nodes, no need to connect/disconnect n
 You can also use helper functions and utilize the previous function to solve this.
 */
     static Node  sortLL_recursive(Node head ){
-        if (head.next==null||head.next.next==null) return head;
+        if (head.next==null) return head;
          sortLL_recursive(sort_one_node(head,head).next);
-         return head;//the head passed and returned here is always the same...no matter what the recursion does😗 hahaha...
+         return head;
     }
     static Node sort_one_node(Node head, Node min){
         if (head.next==null)return head;
@@ -68,8 +68,8 @@ Note: You can use helper functions to solve this.
     public static void main(String[] args) {
         // Tester method created with a little help from AI for speed
         // -------- Create Linked List of 9 nodes --------
-        Task5.Node head = new Task5.Node(10);
-        head.next = new Task5.Node(22);
+        Task5.Node head = new Task5.Node(3);
+        head.next = new Task5.Node(2);
         head.next.next = new Task5.Node(13);
         head.next.next.next = new Task5.Node(20);
         head.next.next.next.next = new Task5.Node(22);
